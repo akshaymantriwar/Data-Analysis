@@ -4,10 +4,10 @@ import requests
 import requests_oauthlib
 import json
 
-ACCESS_TOKEN = '4222499112-E4zNbIwTLx4KCNPk6Mu3Uroi2M4VBbfzpcBoXEW'
-ACCESS_SECRET = '8XrkDWGq3zh2DrgzkbdjstBawUReyb5BkhSTwItEBN9gg'
-CONSUMER_KEY = 'ZbMRXMsvsMHYhKjl7q311KUpx'
-CONSUMER_SECRET = 'dG1EWwfhjVAI1RUdh4VdjTjCGoaVVoMyRWDpqD8qMnu0Uqx5B9'
+ACCESS_TOKEN = 'your access token'
+ACCESS_SECRET = 'yours'
+CONSUMER_KEY = 'yours'
+CONSUMER_SECRET = 'yours'
 my_auth = requests_oauthlib.OAuth1(CONSUMER_KEY, CONSUMER_SECRET,ACCESS_TOKEN, ACCESS_SECRET)
 
 
